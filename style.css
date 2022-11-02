@@ -1,0 +1,106 @@
+body {
+  background: #F7F9FC;
+  color: #5995CD;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 1;
+}
+
+.headers {
+  color: #2A4A68;
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2, h3 {
+  font-size: 20px;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+
+.hyper {
+  color: #5995CD;
+  text-decoration: none;
+ }
+
+a:hover {
+  color: #2A4A68;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li{
+  display: inline;
+}
+
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#blue-but {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#blue-but:hover {
+  background-color: #2A4A68;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card{
+  background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
